@@ -17,7 +17,7 @@ jobs:
     - name: Wdrożenie do FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-      server: 52.188.215.23
-      username: ${{secrets.ftp_username}}
-      password: ${{secrets.ftp_password}}
+        server: 52.188.215.23
+        username: ${{secrets.ftp_username}}
+        password: ${{secrets.ftp_password}}
         server-dir: www/
